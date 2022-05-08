@@ -1,0 +1,10 @@
+┌─────────────────────────────────────────────────────┐
+│                     teenyTerm                       │
+│                      - Help -                       │
+└─────────────────────────────────────────────────────┘
+[?] Commands Available
+- help (displays help context menu)
+- calc (basic calculator)
+- clear (clears everything on display)
+- restart (restarts terminal)
+- exit (shuts down terminal)

@@ -18,7 +18,7 @@ int main() {
         loadText: // Loads txt files. Review main.h [L:27]
         system("clear");
         std::cout << txt("includes/ascii/title.txt") << std::endl << std::flush;
-            while (runtime == 1) {
+        while (runtime == 1) {
             cmd(); // Initializes user commands.
             std::cout << ">> ";
             std::cin >> callApp;

@@ -20,7 +20,6 @@
 #include <sys/stat.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../includes/apps/calc.h"
 
 void delay(int a) {
     int add, time, i;
@@ -33,7 +32,7 @@ void delay(int a) {
     }
 }
 
-std::string txt(string FilePath) {
+std::string txt(std::string FilePath) {
     std::string FileBuffer;
         std::ifstream loadText (FilePath);
         if(loadText.is_open () ) {

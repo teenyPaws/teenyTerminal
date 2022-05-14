@@ -5,4 +5,3 @@
 ---
 #### Changelog
 - Added restart functionality
-- Repaired broken text file reading

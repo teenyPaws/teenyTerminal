@@ -1,4 +1,4 @@
-# 🐾 <a href="#">Teeny Terminal JS</a> | v1.2.0d
+# 🐾 <a href="#">Teeny Terminal JS</a>
 *An experimental web app.* :3
 
 ---

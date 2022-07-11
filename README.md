@@ -1,7 +1,8 @@
 # 🐾 <a href="https://github.com/teenyPaws/teenyTerminal">Teeny Terminal</a> | v1.2.0d
 *An experimental program I wrote in C++.* :3
 
-![image](https://user-images.githubusercontent.com/101172593/167318191-4c92420b-ef5b-4ad5-b3db-a67e0ece1d6e.png)
+![teenyTerminal](https://user-images.githubusercontent.com/101172593/178210720-34175e55-10a2-4593-a1cf-f6517a79ee33.png)
+
 ---
 #### 📝 Changelog
 - Added restart functionality

@@ -1,10 +1,9 @@
 /*
-    teenyTerminal Sources
-    Credit goes to: 
-        - "Halogem" 
-        - github.com/teenyPaws
-    ──────────────────────────────────────────────────────────────────────────────────────
-    [!] For more detail, please refer to README.md located in the root of the repository.
+        teenyTerminal
+
+    Credits to: 
+        - Halogem (github.com/teenyPaws)
+        - Unknown Online Resources
 */
 
 #include <iostream>
@@ -41,9 +40,8 @@ std::string txt(std::string FilePath) {
 
             }
         }
-       loadText.close();
-       return FileBuffer;
-
+    loadText.close();
+    return FileBuffer;
 }
 
 int valA, valB, Ans;
@@ -66,13 +64,11 @@ int calcD(int a, int b) {
 }
 char invalidNum[] = "[!] Invalid input.\n";
 
-// Available Commands
 enum MenuOptions {
     evNotDefined,
     help,
     credits,
     calc,
-    admin,
     clear,
     restart,
     shutdown
@@ -83,19 +79,14 @@ enum MenuOptions {
 };
 static std::map<std::string, MenuOptions> s_mapStringValues;
 void cmd() {
-    // Context
     s_mapStringValues["help"] = help;
     s_mapStringValues["credits"] = credits;
 
-    // MISC. Extensions
     s_mapStringValues["calc"] = calc;
 
-    // Interaction
-    s_mapStringValues["admin"] = admin; // User authentication feature coming soon.
-    s_mapStringValues["clear"] = clear; // Clears all text in terminal.
+    s_mapStringValues["clear"] = clear;
 
-    // System
-    s_mapStringValues["restart"] = restart; // Reloads the terminal
+    s_mapStringValues["restart"] = restart;
     s_mapStringValues["exit"] = shutdown;
     
 }

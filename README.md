@@ -12,4 +12,4 @@
 - N/A
 -->
 
-###### 🌿 Switch between branches to view javascript version *[not yet started development but might get to is eventually]*
+###### 🌿 Switch between branches to view javascript version *[not yet started development but might get to it eventually]*

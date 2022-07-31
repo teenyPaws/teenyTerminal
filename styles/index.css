@@ -399,6 +399,82 @@ header {
     border: #9ba8ae 0px solid;
 }
 
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3.5rem;
+
+    border: #9ba8ae 0px solid;
+} .download a {
+    outline: none;
+} .box2 {
+    position: relative;
+    top: -2rem;
+    margin-top: 4rem;
+    margin-left: 0.27rem;
+    margin-right: 0.27rem;
+    width: 7rem;
+    height: 2rem;
+
+    background: linear-gradient(135deg,
+            rgba(50, 50, 50, 0.4),
+            rgba(40, 40, 40, 0.5));
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+} .box2:hover {
+    transform: translateY(-8%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6);
+    transition: all 0.3s ease-in-out;
+} .box2 p {
+    position: relative;
+    left: 0.75rem;
+    top: -0.4rem;
+
+    font-size: 14px;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+} .windows {
+    position: relative;
+    left: 2.6rem;
+    top: -4.45rem;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+} .linux {
+    position: relative;
+    left: 3rem;
+    top: -4.45rem;
+
+    animation: fadeIn linear 2.15s;
+    -webkit-animation: fadeIn linear 2.15s;
+    -moz-animation: fadeIn linear 2.15s;
+    -o-animation: fadeIn linear 2.15s;
+    -ms-animation: fadeIn linear 2.15s;
+}
+
 footer p {
     position: relative;
     text-align: center;

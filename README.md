@@ -8,7 +8,6 @@
 - N/A
 -->
 
----
 #### 👥 Source Credit
 - *Sources written by:* <a href="http://www.github.com/teenyPaws">Halogem</a>
 - *Website hosted with:* <a href="https://pages.github.com/">GitHub Pages</a>

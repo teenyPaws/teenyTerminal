@@ -1,0 +1,675 @@
+/*
+    Credits to: 
+        Sources by: Halogem (github.com/teenyPaws)
+        Website hosted with: GitHub Pages
+        URL Domain obtained with: Google Domains
+        Icons obtained using: Font Awesome
+*/
+
+html {
+    scroll-behavior: smooth;
+} html, body {
+    /*Positioning*/
+    height: auto;
+    width: auto;
+
+    /*Styling*/
+    background: #060606;
+    background-image: url("../assets/background.jpg");
+} body {
+    /*Positioning*/
+    position: relative;
+    margin: 0;
+} body::before {
+    content: "";
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0 20px rgb(0, 0, 0);
+    z-index: 100;
+} body::after {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0 20px rgb(0, 0, 0);
+    z-index: 100;
+}
+p {
+    color: #8f99a0;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0 15px 10px #000;
+    user-select: none;
+} h1 {
+    color: #5a6165;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 75px;
+    text-shadow: 0 0 15px 10px #000;
+    user-select: none;
+} h2 {
+    color: #5a6165;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0 15px 10px #000;
+    user-select: none;
+} h6 {
+    color: #6d7479;
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    text-shadow: 0 0 15px 10px #000;
+    user-select: none;
+}
+a {
+    font-family: "Dosis", sans-serif;
+    color: #9ba8ae;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+
+    border: 0px solid grey;
+    /*Testing purposes*/
+}
+header {
+    overflow: hidden;
+}
+::selection {
+    background: #bd5c3300;
+}
+.scrollable-element {
+    scrollbar-color: dark;
+} ::-webkit-scrollbar {
+    width: 6px;
+} ::-webkit-scrollbar-track {
+    background: rgb(40, 40, 40);
+} ::-webkit-scrollbar-thumb {
+    background: #ffffff30;
+    border-radius: 20px;
+} ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff40;
+}
+
+.firefly {
+    animation: fadeIn2 linear 4s;
+    -webkit-animation: fadeIn2 linear 4s;
+    -moz-animation: fadeIn2 linear 4s;
+    -o-animation: fadeIn2 linear 4s;
+    -ms-animation: fadeIn2 linear 4s;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0.25rem;
+    height: 10rem;
+
+    border: #9ba8ae 0px solid;
+} .title h1 {
+    position: relative;
+    top: 0rem;
+    text-align: center;
+
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+} .title img {
+    position: relative;
+    left: -1.5rem;
+    top: -0.25rem;
+
+    user-select: none;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 5px #000000;
+    text-shadow: 2px 2px 4px #000000;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+
+.body {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    border: #9ba8ae 0px solid;
+} .body h2 {
+    margin-top: 1rem;
+    margin-left: 1.95rem;
+
+    text-shadow: 2px 2px 4px #000000;
+} .body p {
+    width: 12rem;
+    margin: 1rem;
+
+    text-shadow: 2px 2px 4px #000000;
+} 
+
+.box {
+    position: relative;
+    top: 0px;
+    width: 30.75rem;
+    height: 35rem;
+
+    background: linear-gradient(135deg,
+            rgba(59, 64, 66, 0.125),
+            rgba(59, 64, 66, 0.2));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    animation: fadeIn2 linear 1.5s;
+    -webkit-animation: fadeIn2 linear 1.5s;
+    -moz-animation: fadeIn2 linear 1.5s;
+    -o-animation: fadeIn2 linear 1.5s;
+    -ms-animation: fadeIn2 linear 1.5s;
+
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+} .card {
+    position: relative;
+    top: 0px;
+    left: -9px;
+    float: right;
+    width: 28.22rem;
+    height: 19.75rem;
+
+    margin: 0.6rem;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(135deg,
+            rgba(59, 64, 66, 0.125),
+            rgba(59, 64, 66, 0.2));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    animation: fadeIn2 linear 1.5s;
+    -webkit-animation: fadeIn2 linear 1.5s;
+    -moz-animation: fadeIn2 linear 1.5s;
+    -o-animation: fadeIn2 linear 1.5s;
+    -ms-animation: fadeIn2 linear 1.5s;
+
+    -webkit-transition: all 0.25s ease-in-out;
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+
+    border: #9ba8ae 0px solid;
+} .card:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+.card h2 {
+    position: absolute;
+    top: -8px;
+    left: -18px;
+    color: #519975;
+
+    text-shadow: 2px 2px 4px #000000;
+    border: #9ba8ae 0px solid;
+} .card h2:hover {
+    color: #5db98b;
+} .clicks {
+    position: absolute;
+    top: -20px;
+} .card p {
+    position: absolute;
+    left: -4px;
+    top: 24px;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    border: #9ba8ae 0px solid;
+} .card img {
+    position: relative;
+    left: 0.85rem;
+    top: 2rem;
+
+    width: 94%;
+    height: 70%;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+} .dot1 {
+    position: absolute;
+    left: 425px;
+    top: 10px;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+
+    background: linear-gradient(135deg,
+            rgba(144, 0, 0, 0.6),
+            rgba(144, 0, 0, 0.7));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+} .dot1:hover {
+    background: linear-gradient(135deg,
+            rgba(144, 0, 0, 0.75),
+            rgba(144, 0, 0, 0.85));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+}  .dot1:focus {
+    animation: windowButton 0.3s ease-in-out;
+}
+.dot2 {
+    position: absolute;
+    left: 398px;
+    top: 10px;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+
+    background: linear-gradient(135deg,
+            rgba(160, 100, 0, 0.5),
+            rgba(160, 100, 0, 0.6));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+} .dot2:hover {
+    background: linear-gradient(135deg,
+            rgba(160, 100, 0, 0.65),
+            rgba(160, 100, 0, 0.75));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+} .dot2:focus {
+    animation: windowButton 0.3s ease-in-out;
+}
+.dot3 {
+    position: absolute;
+    left: 370px;
+    top: 10px;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+
+    background: linear-gradient(135deg,
+            rgba(0, 100, 0, 0.5),
+            rgba(0, 100, 0, 0.6));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+} .dot3:hover {
+    background: linear-gradient(135deg,
+            rgba(0, 100, 0, 0.7),
+            rgba(0, 100, 0, 0.8));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+} .dot3:focus {
+    animation: windowButton 0.3s ease-in-out;
+}
+@keyframes windowButton {
+    25% {
+        transform: translateX(-12%);
+    }
+    50% {
+        transform: translateX(12%);
+    }
+    75% {
+        transform: translateX(-6%);
+    }
+    100% {
+        transform: translateX(6%);
+    }
+}
+
+.context h2 {
+    position: relative;
+    text-align: center;
+    top: 3rem;
+    left: -1.4rem;
+
+    animation: fadeIn2 linear 1.5s;
+    -webkit-animation: fadeIn2 linear 1.5s;
+    -moz-animation: fadeIn2 linear 1.5s;
+    -o-animation: fadeIn2 linear 1.5s;
+    -ms-animation: fadeIn2 linear 1.5s;
+
+    border: #9ba8ae 0px solid;
+}
+.context h6 {
+    position: relative;
+    text-align: center;
+    top: -3rem;
+    left: 1rem;
+
+    width: 28rem;
+    height: 10rem;
+
+    font-size: 13px;
+    color: #626a6e;
+
+    animation: fadeIn2 linear 1.5s;
+    -webkit-animation: fadeIn2 linear 1.5s;
+    -moz-animation: fadeIn2 linear 1.5s;
+    -o-animation: fadeIn2 linear 1.5s;
+    -ms-animation: fadeIn2 linear 1.5s;
+
+    border: #9ba8ae 0px solid;
+} .context p {
+    position: relative;
+    text-align: center;
+    top: -9.25rem;
+    left: 0.5rem;
+
+    width: 28rem;
+    height: 10rem;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 13px;
+    color: #626a6e;
+
+    animation: fadeIn2 linear 1.5s;
+    -webkit-animation: fadeIn2 linear 1.5s;
+    -moz-animation: fadeIn2 linear 1.5s;
+    -o-animation: fadeIn2 linear 1.5s;
+    -ms-animation: fadeIn2 linear 1.5s;
+
+    border: #9ba8ae 0px solid;
+}
+
+footer p {
+    position: relative;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Source Code Pro", monospace;
+    color: #5a6165;
+    text-shadow: 2px 2px 4px #000;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+}
+
+
+/*
+    Credits to: 
+        Sources by: Halogem (github.com/teenyPaws)
+        Website hosted with: GitHub Pages
+        URL Domain obtained with: Google Domains
+        Icons obtained using: Font Awesome
+*/
+
+@media (max-width: 480px) {
+    html {
+        scroll-behavior: smooth;
+    } html, body {
+        height: auto;
+        width: auto;
+        overflow-x: hidden;
+
+        background: #060606;
+        background-image: url("../assets/background.jpg");
+    } body {
+        position: relative;
+        margin: 0;
+    }
+    p {
+        color: #8f99a0;
+        font-family: "Dosis", sans-serif;
+        font-size: 18px;
+        text-shadow: 0 0 15px 10px #000;
+        user-select: none;
+    } h1 {
+        color: #5a6165;
+        font-family: 'Raleway', sans-serif;
+
+        font-size: 40px;
+        text-shadow: 0 0 15px 10px #000;
+        user-select: none;
+    } h2 {
+        color: #5a6165;
+        font-family: "Dosis", sans-serif;
+        font-size: 36px;
+        text-shadow: 0 0 15px 10px #000;
+        user-select: none;
+    } h6 {
+        color: #6d7479;
+        font-family: "Dosis", sans-serif;
+        font-size: 15px;
+        text-shadow: 0 0 15px 10px #000;
+        user-select: none;
+    }  a {
+        color: #9ba8ae;
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+
+        border: 0px solid grey;
+        /*Testing purposes*/
+    }
+    ::selection {
+        background: #bd5c3300;
+    } .scrollable-element {
+        scrollbar-color: dark;
+    } ::-webkit-scrollbar {
+        width: 6px;
+    } ::-webkit-scrollbar-track {
+        background: rgb(40, 40, 40);
+    } ::-webkit-scrollbar-thumb {
+        background: #ffffff30;
+        border-radius: 20px;
+    } ::-webkit-scrollbar-thumb:hover {
+        background: #ffffff40;
+    }
+    header {
+        overflow: hidden;
+    }
+
+    .firefly {
+        visibility: hidden;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 10rem;
+
+        border: #9ba8ae 0px solid;
+    } .title h1 {
+        position: relative;
+        top: 0rem;
+        text-align: center;
+
+        animation: fadeIn linear 1s;
+        -webkit-animation: fadeIn linear 1s;
+        -moz-animation: fadeIn linear 1s;
+        -o-animation: fadeIn linear 1s;
+        -ms-animation: fadeIn linear 1s;
+    } .title img {
+        position: relative;
+        left: -1.5rem;
+        top: -0.25rem;
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px 5px #000000;
+        text-shadow: 2px 2px 4px #000000;
+        animation: fadeIn linear 1s;
+        -webkit-animation: fadeIn linear 1s;
+        -moz-animation: fadeIn linear 1s;
+        -o-animation: fadeIn linear 1s;
+        -ms-animation: fadeIn linear 1s;
+    }
+
+    .body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        border: #9ba8ae 0px solid;
+    } .body h2 {
+        margin: 1rem;
+
+        text-shadow: 2px 2px 4px #000000;
+    } .body p {
+        width: 12rem;
+        margin: 1rem;
+
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .card {
+        position: relative;
+        top: -10px;
+        left: -6px;
+        float: right;
+        width: 18rem;
+        height: 15rem;
+
+        display: flex;
+        flex-flow: row;
+
+        border: #9ba8ae 0px solid;
+    } .card:focus {
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+    }
+    .card h2 {
+        position: absolute;
+        top: -8px;
+        left: -4px;
+        color: #519975;
+
+        font-size: 20px;
+        text-shadow: 2px 2px 4px #000000;
+        border: #9ba8ae 0px solid;
+    } .card h2:focus {
+        color: #5db98b;
+    }.card p {
+        position: absolute;
+        left: -3px;
+        top: 22px;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px #000000;
+        border: #9ba8ae 0px solid;
+    } .card img {
+        position: relative;
+        left: 0.78rem;
+        top: 1.75rem;
+
+        width: 91.25%;
+        height: 66%;
+        border-radius: 8px;
+        filter: blur(0px);
+        transition: all 0.2s ease-in-out;
+    } .dot1 {
+        visibility: hidden;
+    }
+    .dot2 {
+        visibility: hidden;
+    }
+    .dot3 {
+        visibility: hidden;
+    }
+    @keyframes windowButton {
+        25% {
+            transform: translateX(-10%);
+        }
+        50% {
+            transform: translateX(10%);
+        }
+        75% {
+            transform: translateX(-5%);
+        }
+        100% {
+            transform: translateX(5%);
+        }
+    }
+
+    .box {
+        position: relative;
+        top: 0px;
+        width: 20rem;
+        height: 37.15rem;
+
+        background: linear-gradient(135deg,
+                rgba(59, 64, 66, 0.125),
+                rgba(59, 64, 66, 0.2));
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        -moz-backdrop-filter: blur(15px);
+        border-radius: 1rem 1rem 1rem 1rem;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+        animation: fadeIn2 linear 1.5s;
+        -webkit-animation: fadeIn2 linear 1.5s;
+        -moz-animation: fadeIn2 linear 1.5s;
+        -o-animation: fadeIn2 linear 1.5s;
+        -ms-animation: fadeIn2 linear 1.5s;
+
+        transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transform: translateY(0%);
+        transition: all 0.3s ease-in-out;
+
+        border: #9ba8ae 0px solid;
+    }
+
+    .blobby {
+        position: relative;
+        left: -0.4rem;
+
+        margin-left: 0.75rem;
+        margin-bottom: 1.75rem;
+
+        transition: all 0.25s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        transform: translateY(0%);
+        transition: all 0.3s ease-in-out;
+    } .blobby:hover {
+        transform: translateY(-6.5%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    footer p {
+        position: relative;
+        text-align: center;
+        font-size: 11px;
+        font-family: "Source Code Pro", monospace;
+        color: #5a6165;
+        text-shadow: 2px 2px 4px #000;
+        animation: fadeIn linear 1.5s;
+        -webkit-animation: fadeIn linear 1.5s;
+        -moz-animation: fadeIn linear 1.5s;
+        -o-animation: fadeIn linear 1.5s;
+        -ms-animation: fadeIn linear 1.5s;
+    }
+}

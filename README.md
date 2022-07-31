@@ -1,15 +1,28 @@
-# 🐾 <a href="https://github.com/teenyPaws/teenyTerminal">Teeny Terminal</a> | v1.2.0d
-*An experimental program I wrote in C++.* :3
+# 🐈‍⬛ <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
 
-![teenyTerminal](https://user-images.githubusercontent.com/101172593/178210720-34175e55-10a2-4593-a1cf-f6517a79ee33.png)
-
----
-#### 📝 Changelog
-- Added restart functionality
+<a href="https://halogem.dev"><img src="resources/banner.png"></a>
 
 <!--
-#### 🪲 Known Issues
+#### 📝 Changelog
+- N/A
+
+#### 🪲 Issues
 - N/A
 -->
 
-###### 🌿 Switch between branches to view javascript version *[not yet started development but might get to it eventually]*
+---
+#### 👥 Source Credit
+- *Sources written by:* <a href="http://www.github.com/teenyPaws">Halogem</a>
+- *Website hosted with:* <a href="https://pages.github.com/">GitHub Pages</a>
+- *URL Domain obtained with:* <a href="https://domains.google.com">Google Domains</a>
+- *Icons obtained using:* <a href="https://fonts.google.com/icons">Google Fonts</a>
+
+---
+#### 🎨 Color Palette
+<a href="https://halogem.dev"><img src="resources/color-palette.png"></a>
+<!--Neutral Color Palette-->
+
+<!--
+#### 🖼️ Screenshots
+[not yet available]
+-->

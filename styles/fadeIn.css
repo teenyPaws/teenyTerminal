@@ -1,0 +1,99 @@
+/*
+    Credits to: 
+        Sources by: Halogem (github.com/teenyPaws)
+        Website hosted with: GitHub Pages
+        URL Domain obtained with: Google Domains
+        Icons obtained using: Font Awesome
+*/
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-4%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-4%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-4%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-4%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-4%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes fadeIn2 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn2 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-o-keyframes fadeIn2 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-ms-keyframes fadeIn2 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

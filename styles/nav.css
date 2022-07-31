@@ -1,0 +1,71 @@
+/*
+    Credits to: 
+        Sources by: Halogem (github.com/teenyPaws)
+        Website hosted with: GitHub Pages
+        URL Domain obtained with: Google Domains
+        Icons obtained using: Font Awesome
+*/
+
+.navigation {
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #9ba8ae 0px solid;
+} .navigation a {
+    outline: none;
+}
+
+.blobby {
+    margin-left: 0.6rem;
+    margin-bottom: 0rem;
+
+    width: 8.5rem;
+    height: 2rem;
+
+    background: linear-gradient(135deg,
+            rgba(59, 64, 66, 0.3),
+            rgba(59, 64, 66, 0.4));
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+} .blobby:hover {
+    transform: translateY(-6.5%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
+    transition: all 0.3s ease-in-out;
+} .blobby h6 {
+    position: relative;
+    top: -5rem;
+    left: 0.75rem;
+
+    animation: 0;
+    -moz-animation: fadeIn linear 1.5s;
+
+    text-align: center;
+    font-size: 14px;
+} .blobby p {
+    position: relative;
+    top: -0.75rem;
+    left: 0.6rem;
+
+    animation: 0;
+    -moz-animation: fadeIn linear 1.5s;
+
+    text-align: center;
+    font-size: 18px;
+}

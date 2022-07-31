@@ -1,4 +1,4 @@
-# 🐈‍⬛ <a href="https://" target="_blank">Project Page</a>
+# 🐈‍⬛ <a href="https://teenypaws.github.io/teenyTerminal/" target="_blank">Project Page</a>
 
 <!--
 #### 📝 Changelog
@@ -17,4 +17,3 @@
 ---
 #### 🎨 Color Palette
 <a href="https://halogem.dev"><img src="resources/color-palette.png"></a>
-<!--Neutral Color Palette-->

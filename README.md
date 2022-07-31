@@ -1,6 +1,4 @@
-# 🐈‍⬛ <a href="https://halogem.dev/" target="_blank">My Personal Website</a>
-
-<a href="https://halogem.dev"><img src="resources/banner.png"></a>
+# 🐈‍⬛ <a href="https://" target="_blank">Project Page</a>
 
 <!--
 #### 📝 Changelog
@@ -21,8 +19,3 @@
 #### 🎨 Color Palette
 <a href="https://halogem.dev"><img src="resources/color-palette.png"></a>
 <!--Neutral Color Palette-->
-
-<!--
-#### 🖼️ Screenshots
-[not yet available]
--->
